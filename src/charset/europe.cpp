@@ -27,7 +27,7 @@ void register_charset_europe(Charset& cs) {
 
     // additional european punctuation at kuten row 47, starting at column 92
     // (charset* 47 92 #\« #\» #\¡)
-    cs.register_kuten_range_str(47, 92, u8"«»¡");
+    cs.register_kuten_range_str(47, 91, u8"—«»¡");
 
     // ASCII at kuten row 48, starting at column 1
     // (charset* 48 1 #\! #\" ... #\~)
